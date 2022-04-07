@@ -1,0 +1,10 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "post": 5432,
+  "username": "kcsuser3",
+  "password": "kcsuser3",
+  "database": "reddit_clone2",
+  "entities": ["dist/entities/*.js"],
+  "migrations": ["dist/migrations/*.js"]
+}
